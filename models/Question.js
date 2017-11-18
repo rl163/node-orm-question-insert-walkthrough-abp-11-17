@@ -19,6 +19,9 @@ class Question{
   }
 
   insert(){
+    return new Promise(function(resolve){
+      resolve("This Does Nothing!")
+    })
 
   }
 
